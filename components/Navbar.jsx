@@ -1,17 +1,17 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsInstagram } from 'react-icons/bs';
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/sglogo.png'
+import NavLogo from "../public/assets/sglogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#002752");
-  const [linkColor, setLinkColor] = useState('');
+  const [linkColor, setLinkColor] = useState("");
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         setShadow(false);
       }
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener("scroll", handleShadow);
   }, []);
 
   return (
@@ -157,14 +157,15 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
-                </li>
-              </Link>
+             
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
+                </li>
+              </Link>
+               <Link href="https://drive.google.com/file/d/1QUYQhDH1I3k-bFkI3rebJtpwuZqHyPjq/view?usp=share_link">
+                <li onClick={() => setNav(false)} className="py-4 text-sm ">
+                  Resume
                 </li>
               </Link>
             </ul>
