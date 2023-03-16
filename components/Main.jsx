@@ -1,8 +1,8 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsInstagram } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsInstagram } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -18,7 +18,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-teal-400">A Full-Stack Web Developer</h1>
           <p className="py-4 text-[#D1D1C7] sm:max-w-[70%] m-auto">
-            I'm a proficient and versatile IT programmer, known for my
+            I&#39;m a proficient and versatile IT programmer, known for my
             analytical skills and diligent work ethic.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
