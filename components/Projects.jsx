@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import Portfolio2023 from "../public/assets/projects/portfolio2023.png";
 import Color from '../public/assets/projects/color.png'
 import Tourism from '../public/assets/projects/tourism.png'
-import Portfolio22 from '../public/assets/projects/portfolio22.png'
 import ProjectItem from './ProjectItem';
+import JobTracker from '../public/assets/projects/jobtracker.png'
+import spotify from "../public/assets/projects/spotify.png";
+import weather from "../public/assets/projects/weather.png";
+
 
 const Projects = () => {
   return (
@@ -14,12 +14,26 @@ const Projects = () => {
         <p className=" tracking-widest uppercase text-cyan-500 text-3xl pb-2 text-bold">
           Projects
         </p>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <ProjectItem
-            title="Shree Portfolio - 2023"
-            backgroundImg={Portfolio2023}
-            projectUrl="/portfolio2023"
-            tech="Next JS"
+            title="Job Tracker"
+            backgroundImg={JobTracker}
+            projectUrl="/jobtracker"
+            tech="React Js"
+          />
+          <ProjectItem
+            title="Weather Application"
+            backgroundImg={weather}
+            projectUrl="/weather"
+            tech="React Js"
+          />
+          <ProjectItem
+            title="Spotify Clone"
+            backgroundImg={spotify}
+            projectUrl="/spotify"
+            tech="React Js"
+            width="2000px"
+            height="1390px"
           />
           <ProjectItem
             title="Color Generator App"
@@ -33,12 +47,7 @@ const Projects = () => {
             projectUrl="/tourism2023"
             tech="React JS"
           />
-          <ProjectItem
-            title="Shree Portfolio - 2022"
-            backgroundImg={Portfolio22}
-            projectUrl="/portfolio2022"
-            tech="Angular JS"
-          />
+          
         </div>
       </div>
     </div>

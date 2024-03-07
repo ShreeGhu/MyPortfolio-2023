@@ -16,7 +16,7 @@ const Main = () => {
           <h1 className="py-4 text-cyan-500">
             Hi, I&#39;m <span className="text-[#D1D1C7]"> Shreekant</span>
           </h1>
-          <h1 className="py-2 text-teal-400">A Full-Stack Web Developer</h1>
+          <h1 className="py-2 text-teal-400">Software Developer</h1>
           <p className="py-4 text-[#D1D1C7] sm:max-w-[70%] m-auto">
             I&#39;m a proficient and versatile IT programmer, known for my
             analytical skills and diligent work ethic.

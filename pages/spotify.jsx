@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Portfolio22 from "../public/assets/projects/portfolio22.png";
+import spotify from "../public/assets/projects/spotify.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const portfolio2022 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Portfolio22}
+          src={spotify}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-300 z-10 p-2">
-          <h2 className="py-2">Portfolio-2022</h2>
-          <h3>Angular JS / Html / Css / TypeScript</h3>
+          <h2 className="py-2">Spotify Landing Page Clone</h2>
+          <h3>React.js / Tailwind CSS / HTML / APIs</h3>
         </div>
       </div>
 
@@ -26,18 +26,23 @@ const portfolio2022 = () => {
         <div className="col-span-4">
           <h2>Overview</h2>
           <p>
-            This appplication was built using Angular.JS and is styled with CSS.
-            The application is hosted statically using Netlify.
+            This Spotify homepage is built using React and Tailwind CSS,
+            showcasing advanced front-end development skills. I have implemented
+            a responsive and visually appealing design, highlighting proficiency
+            in crafting user interfaces with modern technologies. I have
+            demonstrated adeptness in utilizing Tailwind CSS utility classes to
+            streamline styling, emphasizing the ability to create sleek and
+            efficient user interfaces.
           </p>
           <a
-            href="https://shree-portfolio.netlify.app/"
+            href="https://spotify-clone-shree-gumanju.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/ShreeGhu/MyPortfolio-2022"
+            href="https://github.com/ShreeGhu/Spotify-Clone"
             target="_blank"
             rel="noreferrer"
           >
@@ -49,20 +54,18 @@ const portfolio2022 = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 text-white" /> Angular.JS
-              </p>
-              <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> TypeScript
+                <RiRadioButtonFill className="pr-1 text-white" /> Javascript
               </p>
               <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> HTML
               </p>
               <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> APIs
               </p>
+              <p className=" py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
+              </p>
+              
             </div>
           </div>
         </div>

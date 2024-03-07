@@ -28,29 +28,29 @@ const About = () => {
             coding was ignited, and my journey as a developer began.
           </p>
           <p className="py-2 text-[#D1D1C7]">
-            Currently, I am in my fourth year of pursuing a Bachelor&#39;s
-            degree in Information Technology in Canada. Throughout my academic
-            journey, I have been fortunate enough to participate in various
-            projects. My primary objective at present is to continuously develop
-            my skills and create accessible and inclusive digital solutions for
-            companies. Although I am most adept in creating front-end
-            applications with HTML, CSS, JavaScript, and React, I am a fast
-            learner and capable of adapting to new technologies as needed. In my
-            view, a great developer is not restricted to a specific language,
-            but instead, chooses the most suitable tool for the task at hand.
+            My education at Fairleigh Dickinson University has equipped me with
+            a strong foundation in Information Technology. Throughout my
+            academic journey, I've had the opportunity to engage in diverse
+            projects that have enriched my practical skills. In terms of
+            professional experience, I've undertaken several personal projects,
+            which you can explore in detail in the Projects section below.
+            Additionally, I have successfully completed HarvardX: CS50's
+            Introduction to Programming with Python. You can verify my
+            proficiency in Python programming by viewing my certificate here.
           </p>
+
           <p className=" text-[#D1D1C7]">
-            As a fourth-year student, I am actively seeking{" "}
-            <span className="text-teal-400">
-              Full-Stack Web Development positions
-            </span>
-            . Should there be a vacancy that aligns with my skills and
-            aspirations, kindly reach out to me.
+            I'm currently seeking{" "}
+            <span className="text-teal-400">Software Developer positions </span>
+            where I can continue to grow and contribute my skills to create
+            accessible and inclusive digital solutions for companies. If you
+            believe I'd be a good fit for your team, please feel free to reach
+            out.
           </p>
         </div>
       </div>
       <div>
-        <FixedSentence sentence="----------------> Developed By Shreekant Gumanju @ " />
+        <FixedSentence sentence="----------------> Developed By Shreekant Gumanju @" />
       </div>
     </div>
   );

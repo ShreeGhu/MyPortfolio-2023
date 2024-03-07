@@ -84,7 +84,7 @@ const Navbar = () => {
               <Link href="/#contact">Contact</Link>
             </li>
             <li className="ml-10 text-lg uppercase  hover:bg-gradient-to-r from-cyan-500 text- to-teal-500 rounded-md px-2.5 hover:text-black text-white">
-              <Link href="https://drive.google.com/file/d/1GHugUDCo8Wfou76cOWzgCakojne3oEf9/view?usp=share_link">
+              <Link href="https://drive.google.com/file/d/1auwjg5CIKUZLSEa6vpjcEFZ6ums-ClkO/view?usp=sharing">
                 Resume
               </Link>
             </li>

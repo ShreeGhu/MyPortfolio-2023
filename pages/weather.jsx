@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react';
-import Portfolio2023 from '../public/assets/projects/portfolio2023.png';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import weather from "../public/assets/projects/weather.png";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
-const portfolio2023 = () => {
+const tourism2023 = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const portfolio2023 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Portfolio2023}
+          src={weather}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Shree Portfolio - 2023</h2>
-          <h3>Next JS / Tailwind / Vercel</h3>
+          <h2 className="py-2">Weather Application</h2>
+          <h3>React JS / Tailwind CSS / APIs</h3>
         </div>
       </div>
 
@@ -26,12 +26,24 @@ const portfolio2023 = () => {
         <div className="col-span-4">
           <h2>Overview</h2>
           <p>
-            This application was developed utilizing the Next JS framework and is currently hosted on Vercel. The design was implemented with the aid of Tailwind CSS, incorporating a variety of colors available in a designated color palette website.
+            This particular application was developed using the React JS library
+            and is presently hosted on the Vercel. It is a demonstration
+            application that I built to enhance my proficiency with React JS. I
+            cordially invite you to visit this website and take advantage of its
+            full capabilities.
           </p>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/ShreeGhu/React_Weather_App"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a
+            href="https://react-weather-app-dusky.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
@@ -43,17 +55,16 @@ const portfolio2023 = () => {
                 <RiRadioButtonFill className="pr-1 text-white" /> React.JS
               </p>
               <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> Weather APIs
               </p>
               <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Tailwind CSS
+                <RiRadioButtonFill className="pr-1" /> Vercel
               </p>
               <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> HTML
               </p>
               <p className=" py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Vercel
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
@@ -65,5 +76,4 @@ const portfolio2023 = () => {
     </div>
   );
 };
-
-export default portfolio2023;
+export default tourism2023;
