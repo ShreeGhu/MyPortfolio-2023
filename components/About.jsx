@@ -30,22 +30,22 @@ const About = () => {
           <p className="py-2 text-[#D1D1C7]">
             My education at Fairleigh Dickinson University has equipped me with
             a strong foundation in Information Technology. Throughout my
-            academic journey, I've had the opportunity to engage in diverse
+            academic journey, I&#39;ve had the opportunity to engage in diverse
             projects that have enriched my practical skills. In terms of
-            professional experience, I've undertaken several personal projects,
-            which you can explore in detail in the Projects section below.
-            Additionally, I have successfully completed HarvardX: CS50's
-            Introduction to Programming with Python. You can verify my
-            proficiency in Python programming by viewing my certificate here.
+            professional experience, I&#39;ve undertaken several personal
+            projects, which you can explore in detail in the Projects section
+            below. Additionally, I have successfully completed HarvardX:
+            CS50&#39;s Introduction to Programming with Python. You can verify
+            my proficiency in Python programming by viewing my certificate here.
           </p>
 
           <p className=" text-[#D1D1C7]">
-            I'm currently seeking{" "}
+            I&#39;m currently seeking{" "}
             <span className="text-teal-400">Software Developer positions </span>
             where I can continue to grow and contribute my skills to create
             accessible and inclusive digital solutions for companies. If you
-            believe I'd be a good fit for your team, please feel free to reach
-            out.
+            believe I&#39;d be a good fit for your team, please feel free to
+            reach out.
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@ const portfolio2022 = () => {
             styled with CSS3. The application is hosted statically using Vercel.
             This application is centralized employment-tracking application to
             streamline job applications, coordinate interviews, and enhance job
-            seekers' preparation.This application is integrated with Google Maps
+            seekers preparation.This application is integrated with Google Maps
             API for intuitive location input and commute time estimation,
             boosting user experience and decision-making. Moreover, JWT
             authentication is implemented for secure user accounts and employed
